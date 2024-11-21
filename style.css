@@ -10,13 +10,14 @@ h1{
     justify-content:center;
 }
 .calc{
+    background-image: none;
     background-color: darkgray;
     padding: 7px;
     margin: 3px;
     border-radius: 10px;
 }
 *{
-    background-color: gray;
+    background-image: url("image-two-calculators.avif");
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 15px;
@@ -33,6 +34,7 @@ h1{
     text-align: right;
 }
 .butnum{
+    background-image: none;
     background-color: darkslategray;
     color: aliceblue;
     padding: 20px;
@@ -48,6 +50,7 @@ h1{
     color: rgb(203, 203, 79);
 }
 .butsym{
+    background-image: none;
     background-color: crimson;
     color: aliceblue;
     padding: 20px;
@@ -63,6 +66,7 @@ h1{
     color: rgb(203, 203, 79);
 }
 .butchar{
+    background-image: none;
     background-color: darkgoldenrod;
     color: aliceblue;
     padding: 20px;
