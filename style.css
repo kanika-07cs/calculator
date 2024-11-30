@@ -1,6 +1,14 @@
+*{
+    background-image: url("image-two-calculators.avif");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
 h1{
     color: midnightblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: none;
     font-size: 35px;
     text-align: center;
     font-weight: bold;
@@ -8,6 +16,7 @@ h1{
 .in1{
     display: flex;
     justify-content:center;
+    background-image: none;
 }
 .calc{
     background-image: none;
@@ -16,15 +25,7 @@ h1{
     margin: 3px;
     border-radius: 10px;
 }
-*{
-    background-image: url("image-two-calculators.avif");
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    cursor: pointer;
-}
 .in1 input{
-    background-color: darkgrey;
     padding: 15px 35px 15px 15px;
     border-radius: 7px;
     border-color: brown;
